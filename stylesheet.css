@@ -1,0 +1,349 @@
+body{
+    box-sizing: border-box;
+    font-family: "Alegreya Sans";
+    margin: 0px;
+}
+/*index and welcome page*/
+.index{
+    background-image: url(css/images/drew-coffman-1872.jpg);
+    background-size: cover;
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    height: 590px;
+    width: 100%;
+}
+.bakerycolor:hover{
+    cursor: pointer;   
+}
+.index > ul{
+    line-height: 1.86em;  
+    float: right; 
+    margin-right: 30px;
+    margin-top: 8px;
+}
+.index > ul> li {
+    display: inline-block;
+    margin: 15px;
+}
+li{
+    list-style: none;;
+}
+.index li span{
+    color:#fff;
+    font-size: 21px;
+}  
+.index li span:hover{
+    color:#c2b6a4;
+}
+a {
+    text-decoration: none;
+}
+.index p {
+    color: rgba(255,255,255, .92);
+    margin: 21px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.index span{
+    color: rgba(255,255,255, .92);
+    font-size: 20px;
+}
+h1{
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 75px;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+.welcome{
+    text-align: center;
+    margin-top: 170px;
+}
+.learnmore{
+    border:2px solid transparent;
+    border-radius: 3px;
+    color: #fff;
+    padding: 15px 28px;
+    font-weight: bold;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+.contact{
+    border:2px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    padding: 15px 28px; 
+    font-weight: bold;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+.links{
+    margin: 46px;
+}
+.learnmore{
+    background-color: #8e7754;
+    margin: 35px;
+}
+.learnmore:hover , .contact:hover{
+    background-color: #fff;
+    color: black;
+}
+/*who are you ?*/
+.who{
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.who img{
+    width:80%;
+    height: 80%;
+    padding-left: 65px;
+}
+.who li{
+    margin-bottom: 21px;
+    margin-top: 25px;
+    margin-left: -42px;
+    font-size: 15px;
+    font-weight: 400px;
+    color: #686868;
+}
+.iconslist  li span{
+    color: #686868;
+    margin-left: 10px;
+    margin-right: 13px;
+}
+.iconslist .fa {
+    color: #8e7754;
+    padding-top: 8px;
+    padding-left: 8px;
+    font-size: 24px;
+}
+.who p{
+    width: 80%;
+}
+h2{
+    font-size: 32px;
+    margin-top: 28px;
+    color: #303030;
+}
+.who div {
+    width: 50%;
+    float:left;
+}
+.description p{
+    color: #686868;
+    line-height: 35px;
+    font-size: 17px;
+}
+.fas{
+    color:#8e7754;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.circle{
+    height: 45px;
+    width: 45px;
+    background-color:white ;
+    border-radius: 50%;
+    display: inline-block;
+    border: #aaa solid 0.5px;
+}
+/*our location*/
+.container{  
+    background-color: rgb(248, 248, 248);
+    padding-left: 65px;
+}
+.location{
+    float:left;
+    width: 50%;
+}
+.location h2 {
+    color: #303030;
+}
+.location img {
+    width: 80%;
+    height: 80%;
+}
+.location p {
+    line-height: 35px;
+    padding-right: 88px;
+    font-size: 15px;
+    color: #686868;
+}
+/*our baking*/
+.baking p{
+    color: #888;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.baking span{
+    line-height: 35px;
+    text-align: center;
+    color: #686868;
+    font-size: 17px;
+}
+.baking h2{
+    color: #303030;
+    text-align: center;
+}
+.baking div {
+    width: 30%;
+    float: left;
+    margin-left: 1%;
+    padding: 1%;
+    text-align: center;
+}
+.baking img {
+    width: 90%;
+    height: 50%;
+}
+.baking{
+    clear: left;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+/* contact information*/
+.container{
+    padding-top: 35px;
+}
+.info li {
+    color: #686868;;
+    margin-bottom: 30px;
+    font-size: 20px;
+    margin-left: -42px;
+}
+.info p{
+    color: #686868;
+    line-height: 27px;
+    font-size: 20px;
+}
+.info {
+    width: 50%;
+    float: left;
+}
+.info img{
+   width: 70%;
+   height:  70%;
+}
+.dotted{
+        height: 35px;
+        width: 35px;
+        background-color:#8e7754;
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+    }
+.info .fa{
+        color: #fff;
+        font-size: 20px;
+        margin-top: 6px;
+        margin-left: 6px;
+        position: absolute;
+        top: 4%;
+        left: 2%;
+    }
+/*details of contact information*/
+.end{
+    background-color:#403d38;
+    padding-left: 65px;
+    padding-right: 34px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.end p {
+    color:#969696;
+    line-height: 29px;
+}
+.end li{
+    color: #969696;
+    line-height: 45px;
+}
+.baking h4 {
+    color: #403d38 ;
+    text-align: center;
+}
+.end h4{
+    color:#fff;
+}
+.end .fa{
+    color: #969696;
+    font-size: 24px;
+    text-align: center;
+}
+.quarter{
+    width: 25%;
+    float: left;
+}
+.contactdetails{
+    background-image: url("css/images/contact-details-map.png");
+    background-repeat: no-repeat;
+}
+
+
+/*footer of page */
+.footer{
+    background-color: #353330;
+    text-align: center;
+    clear: both;
+    padding: 3%;
+}
+.footer p {
+    color: #777;
+}
+.footer ul {
+    text-decoration: none;}
+.footer li {
+    display: inline-block;
+    padding: 1%;
+    position: relative;
+}
+.icofont-facebook , .icofont-twitter , .icofont-google-plus , .icofont-linkedin{
+    font-size: 24px;
+    color:#353330;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    right: 30%;
+}
+.dot{
+    height: 10%;
+    width: 35px;
+    background-color: rgb(248 248 248);
+    border-radius: 50%;
+    display: inline-block;
+}
+.icofont-facebook:hover .icofont-twitter:hover , .icofont-google-plus:hover , .icofont-linkedin:hover{
+    color:#fff;
+}
+.dot:hover{
+    background-color: #8c8a86;
+}
+.clearfix {
+    clear: both;
+}
+@media   screen and (max-width:786px) {
+
+    .who div , .info ,.location, .baking div {
+        width: 100%;
+    }
+    .baking img {
+        width: 60%;
+        height: 60%;
+    }
+    .quarter{
+        width: 100%;
+    }
+    .icofont-facebook , .icofont-twitter , .icofont-google-plus , .icofont-linkedin{
+        font-size: 24px;
+        color:#353330;
+        text-align: center;
+        position: absolute;
+        top: 20%;
+        right: 25%;
+    }
+}
+
+
+
+    
